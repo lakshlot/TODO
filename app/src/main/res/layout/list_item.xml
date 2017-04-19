@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Title"
+            android:layout_width="match_parent"
+            android:id="@+id/title2"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="24sp"
+            tools:gravity="center"
+            android:focusable="false"
+            />
+        <TextView
+            android:text="Desciption"
+            android:layout_width="match_parent"
+            android:id="@+id/description2"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="fill"
+            android:textSize="14sp"
+            android:focusable="false"/>
+        <TextView
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:id="@+id/dateview"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="bottom|left"
+            android:focusable="false"/>
+        <TextView
+            android:text="Time"
+
+            android:layout_width="match_parent"
+            android:id="@+id/timeview"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="bottom|right"
+            android:focusable="false"/>
+    </LinearLayout>
+</LinearLayout>

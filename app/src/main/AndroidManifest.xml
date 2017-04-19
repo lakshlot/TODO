@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lakshay.todo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/todoicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Addactivity"
+            android:label="Add Task" />
+
+        <receiver
+            android:name=".MyBroadcastReciever"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ListitemDetailActivity"
+            android:label="@string/title_activity_listitem_detail"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
